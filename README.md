@@ -33,5 +33,12 @@ Just run the main.py from the root directory:
 python src/main.py
 ```
 
+Access is then possible through:
+
+|Type|url|
+|---|---|
+|single image | http://localhost:8000/api/v1/camera1|
+|jpeg stream | http://localhost:8000/api/v1/camera1/stream|
+
 ## License
 [MIT](license.txt)
